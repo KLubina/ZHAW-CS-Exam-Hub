@@ -36,6 +36,9 @@
 </head>
 
 <body data-studiengang="">
+    <div id="direct-hub-button" class="hub-button-container" style="display: none;">
+        <a href="../../index.html" class="hub-button">&larr; Zurueck zum Hub</a>
+    </div>
     <h1 id="studienplan-title">Studienplan</h1>
     <h2 id="studienplan-subtitle">mind. 180 KP insgesamt</h2>
 
@@ -65,6 +68,13 @@
     <script src="js/studienplan-base-loader.js"></script>
 
     <script>
+        // Zeige den Hub-Button nur bei direktem Aufruf der Template-Seite.
+        // Wenn die Seite im index.html-iframe läuft, ist der äußere Button ausreichend.
+        const directHubButton = document.getElementById('direct-hub-button');
+        if (directHubButton && window.self === window.top) {
+            directHubButton.style.display = 'block';
+        }
+
         // URL Parameter auslesen
         const urlParams = new URLSearchParams(window.location.search);
         const studiengang = urlParams.get('studiengang') || 'eth-cs';

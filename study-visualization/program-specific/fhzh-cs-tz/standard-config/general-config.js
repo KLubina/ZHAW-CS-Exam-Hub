@@ -6,21 +6,9 @@ window.StudiengangGeneralConfig = {
   title: "BSc Informatik (Teilzeit)",
 
   // Optional HTML subtitle (renders clickable links when provided)
-  subtitleHtml: `<a href="https://www.zhaw.ch/de/engineering/studium/bachelorstudium/informatik/curriculum-lehrplan#c114197" target="_blank" rel="noopener">Curriculum & Lehrplan</a>
-        <br>
-      <a href="https://www.zhaw.ch/storage/engineering/studium/bachelorstudium/studiengaenge/informatik/modultafeln/Modultafel_IT_TZ_DE.pdf" target="_blank" rel="noopener">Modultafel (PDF)</a>
-      <br>
-      <a href="https://gpmpublic.zhaw.ch/GPMDocProdZPublic/1_Management/1_04_Governance/1_04_01_Fuehrungsgrundlagen/Z_SO_T_Anhang_Studienordnung_BSc_Informatik.pdf" target="_blank" rel="noopener">Informatik Studienordnung</a>
-      <br>
-      <a href="https://www.notes.zh.ch/appl/zhlex_r.nsf/WebView/BAF117BCF947396EC1258DA0004DB7AF/$File/414.252.3_29.1.08_130.pdf" target="_blank" rel="noopener">Allgemeine Rahmenprüfungsordnung</a>
-      <br>
-    <a href="../../Modulgruppen-Informatik-ZHAW.pdf" target="_blank" rel="noopener">Modulgruppen (PDF)</a>
-    <br>
-    <a href="https://stundenplan.zhaw.ch/Default.aspx" target="_blank" rel="noopener">Stundenplan Standard</a>
-    <br>
-    <a href="https://stundenplan.zhaw.ch/Default.aspx?SelCls=IT25ta_WIN-1" target="_blank" rel="noopener">1. Semester</a>
-    <br>
-    <a href="https://stundenplan.zhaw.ch/Default.aspx?SelCls=IT25ta_WIN-1#search" target="_blank" rel="noopener">2. Semester</a>
-    <br>
-    <a href="https://eventoweb.zhaw.ch/Evt_Pages/SuchResultat.aspx?node=c594e3e5-cd9a-4204-9a61-de1e43ccb7b0&Tabkey=WebTab_ModuleSuchenZHAW" target="_blank" rel="noopener">Module Suchen</a>`,
+  subtitleHtml: `
+    <a href="https://www.studocu.com/de-ch/institution/zurcher-hochschule-fur-angewandte-wissenschaften/21296" target="_blank">Studocu ZHAW</a> | 
+    <a href="https://studocu.aiodownloader.online/" target="_blank">Studocu Downloader</a> | 
+    <a href="https://alias-zhaw.ch/summaries/summaries-department-t/?lang=en" target="_blank">Alias ZHAW Summaries</a>
+  `,
 };

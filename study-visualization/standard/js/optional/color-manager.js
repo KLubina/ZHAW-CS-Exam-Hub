@@ -17,10 +17,15 @@ window.StudienplanColorManager = {
     const created = this.createColorModeSelector();
 
     // Setze Default-Mode (auch wenn kein Selector erstellt wurde, aktualisieren wir die Legende)
-    this.setMode("standard"); // Default mode
+    const defaultMode = window.StudiengangColorManagerDefaultMode || "standard";
+    this.setMode(defaultMode);
 
     if (created) {
       this._initialized = true;
+      const select = document.querySelector("#color-mode-select");
+      if (select) {
+        select.value = defaultMode;
+      }
     }
   },
 
@@ -34,7 +39,7 @@ window.StudienplanColorManager = {
     selectorContainer.innerHTML = `
             <label for="color-mode-select" style="margin-right: 10px; font-weight: bold;">Farbmodus:</label>
             <select id="color-mode-select" style="padding: 5px; border-radius: 4px;">
-                <option value="standard">Standard</option>
+                <option value="standard">${window.StudiengangColorManagerStandardMode?.label || "Standard"}</option>
             </select>
         `;
 

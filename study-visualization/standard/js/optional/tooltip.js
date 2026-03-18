@@ -135,21 +135,32 @@ window.StudienplanTooltip = {
     }
     btnContainer.innerHTML = "";
 
-    if (details.pruefungen) {
+    if (details.pruefungen || details.spicks) {
       let examUrl = null;
       let zsfUrl = null;
 
-      if (Array.isArray(details.pruefungen)) {
-        const examEntries = details.pruefungen.filter(
-          (p) => !p.label.toLowerCase().includes("zusammenfassung"),
-        );
+      if (details.pruefungen) {
+        if (Array.isArray(details.pruefungen)) {
+          const examEntries = details.pruefungen.filter(
+            (p) => !p.label.toLowerCase().includes("zusammenfassung"),
+          );
+          if (examEntries.length > 0) examUrl = examEntries[0].url;
+        } else {
+          examUrl = details.pruefungen;
+        }
+      }
+
+      if (details.spicks) {
+        if (Array.isArray(details.spicks)) {
+          zsfUrl = details.spicks[0].url;
+        } else {
+          zsfUrl = details.spicks;
+        }
+      } else if (details.pruefungen && Array.isArray(details.pruefungen)) {
         const zsfEntries = details.pruefungen.filter((p) =>
           p.label.toLowerCase().includes("zusammenfassung"),
         );
-        if (examEntries.length > 0) examUrl = examEntries[0].url;
         if (zsfEntries.length > 0) zsfUrl = zsfEntries[0].url;
-      } else {
-        examUrl = details.pruefungen;
       }
 
       if (examUrl) {

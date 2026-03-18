@@ -14,6 +14,8 @@
       "â–º Unterrichtssprache\n" +
       "â€¢ DE",
     link: "https://storagemkbdata.blob.core.windows.net/soe/moddescversions/Modulbeschreibung_t.BA.XXK.WING.19HS.pdf",
+    spicks:
+      "https://github.com/KLubina/ZHAW-CS-Exam-Hub/tree/main/spicks/1.Sem/Wirtschaft-f%C3%BCr-Ingenieure",
   },
   "Software-Projekt 1": {
     kurzbeschreibung:
@@ -44,6 +46,8 @@
       "â–º Unterrichtssprache\n" +
       "â€¢ DE",
     link: "https://storagemkbdata.blob.core.windows.net/soe/moddescversions/Modulbeschreibung_t.BA.IT.PROG1.19HS.pdf",
+    spicks:
+      "https://github.com/KLubina/ZHAW-CS-Exam-Hub/tree/main/spicks/1.Sem/Programmierung-1",
   },
   Datenbanken: {
     kurzbeschreibung: "Grundlagen der relationalen Datenbanken",
@@ -79,8 +83,12 @@
     link: "https://storagemkbdata.blob.core.windows.net/soe/moddescversions/Modulbeschreibung_t.BA.IT.INCO.13HS.pdf",
     vorlesungsmaterial:
       "C:\\Users\\krist\\OneDrive\\Documents\\3.1 Informationen Ã¼ber Ausbildungen\\CS-ZHAW-Studium-Unterrichtsunterlagen-Teilzeit\\1. Semester\\Information & Codierung\\Information & Codierung.pdf",
-      pruefungen: "https://github.com/KLubina/ZHAW-CS-Exam-Hub/tree/main/old-exams/1.Sem/Information-und-Codierung"
-    },
+    pruefungen:
+      "https://github.com/KLubina/ZHAW-CS-Exam-Hub/tree/main/old-exams/1.Sem/Information-und-Codierung",
+    spicks:
+      "https://github.com/KLubina/ZHAW-CS-Exam-Hub/tree/main/spicks/1.Sem/Information-und-Codierung",
+    hilfsmittel: ["14 Seiten A4", "Taschenrechner"],
+  },
 
   "Analysis 1": {
     kurzbeschreibung:
@@ -97,8 +105,16 @@
     link: "https://storagemkbdata.blob.core.windows.net/soe/moddescversions/Modulbeschreibung_t.BA.XXM1.AN1.19HS.pdf",
     vorlesungsmaterial:
       "C:\\Users\\krist\\OneDrive\\Documents\\3.1 Informationen Ã¼ber Ausbildungen\\CS-ZHAW-Studium-Unterrichtsunterlagen-Teilzeit\\1. Semester\\Analysis-1.pdf",
-      pruefungen: "https://github.com/KLubina/ZHAW-CS-Exam-Hub/tree/main/old-exams/1.Sem/Analysis-1"
-    },
+    pruefungen:
+      "https://github.com/KLubina/ZHAW-CS-Exam-Hub/tree/main/old-exams/1.Sem/Analysis-1",
+    spicks:
+      "https://github.com/KLubina/ZHAW-CS-Exam-Hub/tree/main/spicks/1.Sem/Analysis-1",
+    hilfsmittel: [
+      "10 Seiten A4",
+      "einfacher Taschenrechner",
+      "gedruckte Formelsammlung",
+    ],
+  },
 
   "Diskrete Mathematik": {
     kurzbeschreibung:
@@ -116,8 +132,12 @@
     link: "https://storagemkbdata.blob.core.windows.net/soe/moddescversions/Modulbeschreibung_t.BA.ITM.DM.19HS.pdf",
     vorlesungsmaterial:
       "C:\\Users\\krist\\OneDrive\\Documents\\3.1 Informationen Ã¼ber Ausbildungen\\CS-ZHAW-Studium-Unterrichtsunterlagen-Teilzeit\\1. Semester\\Diskrete-Mathematik.pdf",
-      pruefungen: "https://github.com/KLubina/ZHAW-CS-Exam-Hub/tree/main/old-exams/1.Sem/Diskrete-Mathematik"
-    },
+    pruefungen:
+      "https://github.com/KLubina/ZHAW-CS-Exam-Hub/tree/main/old-exams/1.Sem/Diskrete-Mathematik",
+    spicks:
+      "https://github.com/KLubina/ZHAW-CS-Exam-Hub/tree/main/spicks/1.Sem/Diskrete-Mathematik",
+    hilfsmittel: ["5 Seiten A4", "einfacher Taschenrechner"],
+  },
 
   "Grundlagen der Elektrotechnik und Digitaltechnik": {
     kurzbeschreibung:
@@ -197,6 +217,8 @@
       "â–º Unterrichtssprache\n" +
       "â€¢ DE",
     link: "https://storagemkbdata.blob.core.windows.net/soe/moddescversions/Modulbeschreibung_t.BA.IT.PROG2.19HS.pdf",
+    spicks:
+      "https://github.com/KLubina/ZHAW-CS-Exam-Hub/tree/main/spicks/2.Sem/Programmierung-2",
   },
   "Systemnahe Programmierung": {
     kurzbeschreibung: "Grundlagen von C und Unix-Ã¤hnlichen Betriebssystemen",
@@ -218,6 +240,8 @@
     link: "https://storagemkbdata.blob.core.windows.net/soe/moddescversions/Modulbeschreibung_t.BA.IT.THIN.19HS.pdf",
     vorlesungsmaterial:
       "C:\\Users\\krist\\OneDrive\\Documents\\3.1 Informationen Ã¼ber Ausbildungen\\CS-ZHAW-Studium-Unterrichtsunterlagen-Teilzeit\\2. Semester\\Theoretische Informatik\\Theoretische-Informatik.pdf",
+    spicks:
+      "https://github.com/KLubina/ZHAW-CS-Exam-Hub/tree/main/spicks/2.Sem/Theoretische-Informatik",
   },
   "Analysis 2": {
     kurzbeschreibung:
@@ -227,6 +251,15 @@
     link: "https://storagemkbdata.blob.core.windows.net/soe/moddescversions/Modulbeschreibung_t.BA.XXM1.AN2.19HS.pdf",
     vorlesungsmaterial:
       "C:\\Users\\krist\\OneDrive\\Documents\\3.1 Informationen Ã¼ber Ausbildungen\\CS-ZHAW-Studium-Unterrichtsunterlagen-Teilzeit\\2. Semester\\Analysis-2.pdf",
+    pruefungen:
+      "https://github.com/KLubina/ZHAW-CS-Exam-Hub/tree/main/old-exams/2.Sem/Analysis-2",
+    spicks:
+      "https://github.com/KLubina/ZHAW-CS-Exam-Hub/tree/main/spicks/2.Sem/Analysis-2",
+    hilfsmittel: [
+      "10 A4-Seiten",
+      "einfacher Taschenrechner",
+      "gedruckte Formelsammlung (z.B. Papula)",
+    ],
   },
   "Lineare Algebra": {
     kurzbeschreibung: "Grundlagen der Linearen Algebra",
@@ -235,6 +268,11 @@
     link: "https://storagemkbdata.blob.core.windows.net/soe/moddescversions/Modulbeschreibung_t.BA.ITM.LA.19HS.pdf",
     vorlesungsmaterial:
       "C:\\Users\\krist\\OneDrive\\Documents\\3.1 Informationen Ã¼ber Ausbildungen\\CS-ZHAW-Studium-Unterrichtsunterlagen-Teilzeit\\2. Semester\\Lineare-Algebra.pdf",
+    pruefungen:
+      "https://github.com/KLubina/ZHAW-CS-Exam-Hub/tree/main/old-exams/2.Sem/Lineare-Algebra",
+    spicks:
+      "https://github.com/KLubina/ZHAW-CS-Exam-Hub/tree/main/spicks/2.Sem/Lineare-Algebra",
+    hilfsmittel: ["8 A4-Seiten selbstverfasst", "Einfacher Taschenrechner"],
   },
   "Wahlpflichtmodul Kommunikation": {
     kurzbeschreibung: "Auswahl aus verschiedenen Kommunikationsmodulen",
@@ -294,7 +332,8 @@
   },
   "Web-Entwicklung": {
     kurzbeschreibung: "EinfÃ¼hrung in aktuelle Webtechnologien",
-    inhalt: "EinfÃ¼hrung in aktuelle Webtechnologien. // Unterrichtssprache: DE",
+    inhalt:
+      "EinfÃ¼hrung in aktuelle Webtechnologien. // Unterrichtssprache: DE",
     link: "https://storagemkbdata.blob.core.windows.net/soe/moddescversions/Modulbeschreibung_t.BA.IT.WBE.10HS.pdf",
   },
   "Computertechnik 1": {
@@ -489,5 +528,3 @@
   },
   // #endregion
 };
-
-

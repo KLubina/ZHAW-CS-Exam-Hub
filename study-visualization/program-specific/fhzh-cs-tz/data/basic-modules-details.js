@@ -48,6 +48,7 @@
     link: "https://storagemkbdata.blob.core.windows.net/soe/moddescversions/Modulbeschreibung_t.BA.IT.PROG1.19HS.pdf",
     spicks:
       "https://github.com/KLubina/ZHAW-CS-Exam-Hub/tree/main/spicks/1.Sem/Programmierung-1",
+    hilfsmittel: ["keine Hilfsmittel zugelassen"],
   },
   Datenbanken: {
     kurzbeschreibung: "Grundlagen der relationalen Datenbanken",

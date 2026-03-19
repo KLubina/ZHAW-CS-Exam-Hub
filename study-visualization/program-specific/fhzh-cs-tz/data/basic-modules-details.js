@@ -1,6 +1,6 @@
 ﻿window.StudiengangModuleDetails = {
   // #region 1. Semester
-  "Wirtschaft fÃ¼r Ingenieure": {
+  "Wirtschaft für Ingenieure": {
     kurzbeschreibung:
       "EinfÃ¼hrung in betriebswirtschaftliche Grundlagen fÃ¼r Ingenieure",
     inhalt:
@@ -46,6 +46,8 @@
       "â–º Unterrichtssprache\n" +
       "â€¢ DE",
     link: "https://storagemkbdata.blob.core.windows.net/soe/moddescversions/Modulbeschreibung_t.BA.IT.PROG1.19HS.pdf",
+    pruefungen:
+      "https://github.com/KLubina/ZHAW-CS-Exam-Hub/tree/main/old-exams/1.Sem/Programmierung-1",
     spicks:
       "https://github.com/KLubina/ZHAW-CS-Exam-Hub/tree/main/spicks/1.Sem/Programmierung-1",
     hilfsmittel: ["keine Hilfsmittel zugelassen"],
